@@ -1,15 +1,15 @@
 /* Main CSS */
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif, ;
+    font-family: 'Times New Roman', Times, serif ;
     margin: 0;
     padding: 0;
     background: #0a0704;
 }
 
 a {
-    color: #6484a4;
-    text-decoration: none;
+    color: #779cca;
+    text-decoration: solid;
 }
 
 a:hover {
@@ -27,6 +27,8 @@ a:hover {
     left: 0;
     height: 100%;
     width: 250px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 #sidebar .inner {
@@ -53,7 +55,7 @@ a:hover {
 
 /* Wrapper */
 #wrapper {
-    margin-left: 250px;
+    margin-left: 0.5px;
     padding: 2em;
 }
 
@@ -104,7 +106,7 @@ section ul li {
 
 #wrapper #intro .actions .button {
     background: #fff;
-    color: #007BFF;
+    color: #184575;
     padding: 0.75em 1.5em;
     border-radius: 4px;
     text-transform: uppercase;
